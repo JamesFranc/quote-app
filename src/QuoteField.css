@@ -3,10 +3,13 @@ height: 100px;
 }
 .QuoteField>p{
     font-family: 'Lora', serif;
-    height:225px;
+    margin-top: 25px;
+    height: 200px;
     font-size: 20px;
     margin-left: 25px;
     margin-right: 25px;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .Source{

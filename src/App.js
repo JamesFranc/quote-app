@@ -14,7 +14,7 @@ class App extends Component {
     super(props);
     this.updateQuote = this.updateQuote.bind(this)
     this.state = {
-      txt: "<p>Initial Text State</p>",
+      txt: "Initial Text State",
       src: "-I made this"
     }
     
@@ -30,6 +30,8 @@ class App extends Component {
     axios.get('http://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1&timestamp'+new Date()+'&callback=').then(function (response) {
       console.log(response);
       quote = response.data[0].content;
+      quote = quote.replace("<p>","");
+      quote = quote.replace("</p>","");
       source = "- ".concat(response.data[0].title);
       component.setState({txt: quote, src: source});
     });
@@ -49,7 +51,7 @@ class App extends Component {
         <div className="QuoteField" dangerouslySetInnerHTML={{__html: DOMPurify.sanitize(this.state.txt)}} ></div>
         <div className="Source" dangerouslySetInnerHTML={{__html: DOMPurify.sanitize(this.state.src)}}></div>
         <div className="Space"></div>
-        <TwitterButton className="TwitterButton"link="http://twitter.com" target="_blank"><FaTwitter /></TwitterButton>
+        <TwitterButton className="TwitterButton"link={'https://twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text=%22'+this.state.txt+'"'} target="_blank"><FaTwitter /></TwitterButton>
         <QuoteButton updateQuote={this.updateQuote}>Update The Quote</QuoteButton>
       </div>
       </div>
