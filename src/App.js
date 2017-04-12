@@ -47,7 +47,7 @@ class App extends Component {
           
         </div>
         <div className="QuoteField" dangerouslySetInnerHTML={{__html: DOMPurify.sanitize(this.state.txt)}} ></div>
-        <div>{this.state.src}</div>
+        <div className="Source" dangerouslySetInnerHTML={{__html: DOMPurify.sanitize(this.state.src)}}></div>
         <div className="Space"></div>
         <TwitterButton className="TwitterButton"link="http://twitter.com" target="_blank"><FaTwitter /></TwitterButton>
         <QuoteButton updateQuote={this.updateQuote}>Update The Quote</QuoteButton>
