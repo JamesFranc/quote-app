@@ -1,9 +1,9 @@
 .QuoteField{
+    margin-top: 20px;
 height: 100px;
 }
 .QuoteField>p{
     font-family: 'Lora', serif;
-    margin-top: 25px;
     height: 200px;
     font-size: 20px;
     margin-left: 25px;
