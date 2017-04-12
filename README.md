@@ -1,3 +1,17 @@
+# React Quote App
+---
+### Built using React for the UI and Axios for HTTP requests 
+
+This project is in a functioning state, with some cleanup happening currently. Redux was not used for simplicity's sake, this is my first React based application and wanted to keep it simple.
+
+The quote api from https://quotesondesign.com/api-v4-0/ was used to get quotes and sources.
+
+If you have any suggestions or spot any glaring errors reach out or make a PR.
+
+Thanks!
+
+### Standard create-react-app README.md to follow
+___
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
