@@ -3,7 +3,7 @@
 ### Built using React for the UI and Axios for HTTP requests 
 
 #### How to run this application:
-#####Assumes you have Node installed: https://docs.npmjs.com/getting-started/installing-node
+##### Assumes you have Node installed: https://docs.npmjs.com/getting-started/installing-node
 
 1. Clone or download this repo
 2. navigate to the directory
