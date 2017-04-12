@@ -1,7 +1,7 @@
 .QuoteButton{
- color: #009688;
+ color: #61DAFB;
  background: #fff;
- border: 1px solid #009688;
+ border: 1px solid #61DAFB;
  font-size: 17px;
  padding: 7px 12px;
  font-weight: normal;
@@ -9,7 +9,7 @@
  display: block;
  float:right;
  top:350px;
- position: absolute;
+ 
  text-decoration: none;
  text-decoration: none;
  font-family: 'Open Sans', sans-serif;
@@ -18,6 +18,6 @@
 
 .QuoteButton:hover, .QuoteButton:active {
  color:#fff;
- background:#009688;
+ background:#61DAFB;
  cursor: pointer;
 }

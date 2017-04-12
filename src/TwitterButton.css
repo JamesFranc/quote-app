@@ -1,7 +1,7 @@
 .TwitterButton{
- color: #009688;
+ color: #61DAFB;
  background: #fff;
- border: 1px solid #009688;
+ border: 1px solid #61DAFB;
  font-size: 17px;
  padding: 7px 12px;
  font-weight: normal;
@@ -9,7 +9,7 @@
  display: block;
  float:left;
  top:350px;
- position: absolute;
+ 
  text-decoration: none;
  font-family: 'Open Sans', sans-serif;
  min-width: 80px;
@@ -17,10 +17,7 @@
 
 .TwitterButton:hover {
  color:#fff;
- background:#009688;
-}
-.TwitterButton:active{
-    
+ background:#61DAFB;
 }
 
 .TwitterButton-alt{
