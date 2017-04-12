@@ -2,11 +2,13 @@
 ---
 ### Built using React for the UI and Axios for HTTP requests 
 
+#### How to run this application:
 1. Clone or download this repo
 2. navigate to the directory
-3. npm install
+3. 'npm install'
 4. Ta-Da!
 
+---
 
 This project is in a functioning state, with some cleanup happening currently. Redux was not used for simplicity's sake, this is my first React based application and wanted to keep it simple.
 
