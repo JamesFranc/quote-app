@@ -7,7 +7,7 @@
 
 1. Clone or download this repo
 2. navigate to the directory
-3. 'npm install'
+3. `npm install`
 4. Ta-Da!
 
 ---
