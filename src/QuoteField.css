@@ -1,0 +1,16 @@
+.QuoteField{
+height: 100px;
+}
+.QuoteField>p{
+    font-family: 'Lora', serif;
+    height:225px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.Source{
+    font-family: 'Ubuntu', sans-serif;
+    height:60px;
+    margin-left: 25px;
+    margin-right: 25px;
+}

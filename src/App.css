@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Lora|Ubuntu:500');
+
+.App {
+  text-align: center;
+  margin: 5%;
+  border: 1px solid #000;
+  height: 350px;
+  overflow-y: hidden;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 60px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 100px;
+  padding: 15px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.QuoteField{
+    font-family: 'Lora', serif;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.Source{
+    font-family: 'Ubuntu', sans-serif;
+    height:60px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

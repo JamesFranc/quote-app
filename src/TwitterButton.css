@@ -1,0 +1,41 @@
+.TwitterButton{
+ color: #009688;
+ background: #fff;
+ border: 1px solid #009688;
+ font-size: 17px;
+ padding: 7px 12px;
+ font-weight: normal;
+ left: 6%;;
+ display: block;
+ float:left;
+ top:350px;
+ position: absolute;
+ text-decoration: none;
+ font-family: 'Open Sans', sans-serif;
+ min-width: 80px;
+}
+
+.TwitterButton:hover {
+ color:#fff;
+ background:#009688;
+}
+.TwitterButton:active{
+    
+}
+
+.TwitterButton-alt{
+ color: #889600;
+ background: #fff;
+ border: 1px solid #889600;
+ font-size: 17px;
+ padding: 7px 12px;
+ font-weight: normal;
+ margin-left: 10px;
+ left: 5px;
+ bottom: 10px;
+ float: left;
+ position: absolute;
+ text-decoration: none;
+ font-family: 'Open Sans', sans-serif;
+ min-width: 80px;
+}
