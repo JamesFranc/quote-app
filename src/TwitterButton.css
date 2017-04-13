@@ -2,17 +2,17 @@
  color: #61DAFB;
  background: #fff;
  border: 1px solid #61DAFB;
- font-size: 17px;
- padding: 7px 12px;
+ font-size: 24px;
+ padding: 4px 12px;
  font-weight: normal;
  left: 6%;;
  display: block;
  float:left;
  top:350px;
- 
  text-decoration: none;
  font-family: 'Open Sans', sans-serif;
  min-width: 80px;
+ transition: 0.2s ease-in-out;
 }
 
 .TwitterButton:hover {
@@ -20,19 +20,7 @@
  background:#61DAFB;
 }
 
-.TwitterButton-alt{
- color: #889600;
- background: #fff;
- border: 1px solid #889600;
- font-size: 17px;
- padding: 7px 12px;
- font-weight: normal;
- margin-left: 10px;
- left: 5px;
- bottom: 10px;
- float: left;
- position: absolute;
- text-decoration: none;
- font-family: 'Open Sans', sans-serif;
- min-width: 80px;
+.QuoteButton:active {
+  box-shadow: 0 6px 0 #99DDFF;
+  top: 6px;
 }

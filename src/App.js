@@ -8,14 +8,17 @@ import './QuoteField.css';
 import './App.css';
 
 var FaTwitter = require('react-icons/lib/fa/twitter');
+var FaLeftQuote = require('react-icons/lib/fa/quote-left');
+var FaRightQuote = require('react-icons/lib/fa/quote-right');
+var FaCheck = require('react-icons/lib/fa/check');
 
 class App extends Component {
   constructor(props) {
     super(props);
     this.updateQuote = this.updateQuote.bind(this)
     this.state = {
-      txt: "Initial Text State",
-      src: "-I made this"
+      txt: "Click the Quotation Mark button below to get a new quote!",
+      src: "-Jimmy"
     }
     
     this.updateQuote.bind(this);
@@ -52,7 +55,7 @@ class App extends Component {
         <div className="Source" dangerouslySetInnerHTML={{__html: DOMPurify.sanitize(this.state.src)}}></div>
         <div className="Space"></div>
         <TwitterButton className="TwitterButton"link={'https://twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text=%22'+this.state.txt+'"'} target="_blank"><FaTwitter /></TwitterButton>
-        <QuoteButton updateQuote={this.updateQuote}>Update The Quote</QuoteButton>
+        <QuoteButton updateQuote={this.updateQuote}><FaLeftQuote className="LeftQuote"/><FaRightQuote className="RightQuote" /><FaCheck className="Check"/></QuoteButton>
       </div>
       </div>
     );

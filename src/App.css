@@ -27,6 +27,15 @@
   font-size: large;
 }
 
+.LeftQuote{
+  margin: 0px;
+  float: left;
+}
+.RightQuote{
+  margin: 0px;
+  float: right;
+}
+
 .QuoteField{
     font-family: 'Lora', serif;
     margin-left: 25px;
@@ -38,6 +47,15 @@
     height:60px;
     margin-left: 25px;
     margin-right: 25px;
+}
+
+.Check{
+  display:inline;
+  color:#fff;
+  transform: 0.2 ease-in;
+}
+.Check:hover,.Check:active{
+ color:#fff;
 }
 
 @keyframes App-logo-spin {

@@ -2,22 +2,26 @@
  color: #61DAFB;
  background: #fff;
  border: 1px solid #61DAFB;
- font-size: 17px;
- padding: 7px 12px;
+ font-size: 23px;
+ padding: 5px 12px;
  font-weight: normal;
  right: 6%;
  display: block;
  float:right;
  top:350px;
- 
- text-decoration: none;
  text-decoration: none;
  font-family: 'Open Sans', sans-serif;
  min-width: 80px;
+ transition: 0.2s ease-in-out;
 }
 
-.QuoteButton:hover, .QuoteButton:active {
- color:#fff;
+.QuoteButton:hover{
+ /*color:#fff;*/
  background:#61DAFB;
  cursor: pointer;
+ 
+}
+.QuoteButton:active {
+  box-shadow: 0 8px 0 #AADDFF;
+  top: 2px;
 }
