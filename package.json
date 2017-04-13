@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "axios": "^0.16.1",
+    "babel-core": "^6.24.1",
     "dompurify": "^0.8.5",
     "jscodeshift": "^0.3.30",
     "prop-types": "^15.5.6",
