@@ -17,7 +17,7 @@
 
 .TwitterButton:hover {
  color:#fff;
- background:#61DAFB;
+ background: rgba(97, 218, 251, 1);
 }
 
 .QuoteButton:active {
